@@ -496,6 +496,7 @@ class Music(commands.Cog):
 
 bot = commands.Bot('+', description='Yet another music bot.')
 bot.add_cog(Music(bot))
+bot.remove_command("help")
 
 
 @bot.event
