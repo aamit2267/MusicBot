@@ -1,7 +1,6 @@
 discord.py[voice]
 discord
 asyncio
-math
 random
 youtube_dl
 pip
