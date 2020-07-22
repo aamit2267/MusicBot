@@ -1,1 +1,1 @@
-worker: python3.5 musiccommands.py
+worker: python musiccommands.py
