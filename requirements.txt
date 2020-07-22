@@ -1,7 +1,6 @@
 discord.py[voice]
 discord
 asyncio
-random
 youtube_dl
 pip
 colorlog
