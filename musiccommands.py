@@ -139,8 +139,8 @@ class Song:
 
     def create_embed(self):
         embed = (discord.Embed(title='Now playing',
-                               description='```css\n{0.source.title}\n```'.format(self),
-                               color=discord.Color.blurple())
+                               color=discord.Color.orange())
+                 .add_field(name='SONG TITLE', value='```\n{0.source.title}\n```'.format(self), inline=False)
                  .add_field(name='Duration', value=self.source.duration)
                  .add_field(name='Requested by', value=self.requester.mention)
                  .add_field(name='Uploader', value='[{0.source.uploader}]({0.source.uploader_url})'.format(self))
@@ -496,7 +496,6 @@ class Music(commands.Cog):
 
 bot = commands.Bot('+', description='Yet another music bot.')
 bot.add_cog(Music(bot))
-bot.remove_command("help")
 
 
 @bot.event
