@@ -4,3 +4,4 @@ asyncio
 youtube_dl
 pip
 colorlog
+PyNaCl
