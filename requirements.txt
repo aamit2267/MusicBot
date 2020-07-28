@@ -1,7 +1,7 @@
 discord.py[voice]
 discord
 asyncio
-youtube_dl
+youtube_dl==2020.6.16.1
 pip
 colorlog
 PyNaCl
